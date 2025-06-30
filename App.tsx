@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useCallback, useMemo, createContext, useContext, ReactNode } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { generateTransactionsFromText, generateServiceOrder } from './services/geminiService';
+import { generateTransactionsFromText, generateServiceOrder } from './geminiService';
 import { Page, Transaction, TransactionType, User, Preset, PaymentMethod, GeminiTransaction } from './types';
 import { auth, db } from './firebase';
 import {
