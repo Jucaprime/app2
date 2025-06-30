@@ -1,0 +1,7 @@
+{
+  "name": "Finanças App",
+  "description": "A personal finance dashboard to track income and expenses, with AI-powered transaction creation and service order generation.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
