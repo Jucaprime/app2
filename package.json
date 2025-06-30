@@ -13,10 +13,7 @@
     "react-dom": "^19.1.0",
     "@google/genai": "^1.7.0",
     "recharts": "^3.0.2",
-    "firebase/app": "latest",
-    "firebase/auth": "latest",
-    "firebase/firestore": "latest",
-    "firebase": "^11.9.1"
+    "firebase": "latest"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
